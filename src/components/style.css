@@ -32,9 +32,10 @@
 .social-icon{
   
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    gap: 2rem;
-    margin: auto;
+    gap: 2rem ;
+    /* margin: auto; */
 }
 
 @keyframes profile_animate{

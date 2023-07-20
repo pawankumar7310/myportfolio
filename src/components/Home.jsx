@@ -9,14 +9,15 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="row mt-5 " id="home">
+    <div className="row mt-3 " id="home">
       <div className="col-md-6 pt-5">
         <div className="row ">
-          <div className=" col-1  social-icon offset-md-4 pt-2">
+          <div className=" col-2  social-icon  pt-2  text-center">
             <a
               href="https://www.instagram.com/pawan_ncr/"
               target="_blank"
               style={{ color: "#29335c" }}
+              rel="noopener noreferrer"
             >
               <BsInstagram />
             </a>
@@ -25,6 +26,7 @@ function Home() {
               href="https://www.linkedin.com/in/pawan-kumar-7439561a0/"
               target="_blank"
               style={{ color: "#29335c" }}
+              rel="noopener noreferrer"
             >
               <BsLinkedin />
             </a>
@@ -32,33 +34,30 @@ function Home() {
               href="https://github.com/pawankumar7310"
               target="_blank"
               style={{ color: "#29335c" }}
+              rel="noopener noreferrer"
             >
               <BsGithub />
             </a>
           </div>
-          <div className="col-7">
+          <div className="col-10 ">
             <h1>Pawan Kumar </h1>
 
             <h5>FrontEnd Developer</h5>
 
-            <p className="pe-3">
+            <p>
               I am a FrontEnd Developer and I am very passionate and dedicated
               to my work
             </p>
             <HashLink smooth to="#contact">
               <button className="buttons">
-                Say hello{" "}
-                {/* <a href="" style={{ color: "white !important" }}>
-                  <GrWaypoint />
-                </a> */}
-                <ChatOutlinedIcon />
+                Say hello <ChatOutlinedIcon />
               </button>
             </HashLink>
           </div>
         </div>
       </div>
 
-      <div className="col-md-6 img-container">
+      <div className="col-md-6 img-container mt-3">
         <div className="home_profile"></div>
       </div>
     </div>

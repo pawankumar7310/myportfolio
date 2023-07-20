@@ -27,9 +27,9 @@ function About() {
           >
             <div className="d-flex justify-content-center align-items-center flex-wrap p-2">
               <div className="about_card" data-aos="fade-down">
-                <a style={{ color: "#29335c", fontSize: "20px" }}>
+                <span style={{ color: "#29335c", fontSize: "20px" }}>
                   <MdOutlineWorkspacePremium />
-                </a>
+                </span>
                 <h5>Experience</h5>
 
                 <p>
@@ -39,11 +39,12 @@ function About() {
                   months
                 </p>
               </div>
+
               <div data-aos="fade-up">
                 <div className="about_card my-2">
-                  <a style={{ color: "#29335c", fontSize: "20px" }}>
+                  <span style={{ color: "#29335c", fontSize: "20px" }}>
                     <MdOutlineWorkHistory />
-                  </a>
+                  </span>
                   <h5>Completed</h5>
                   <p>
                     {counterOn && (
@@ -53,11 +54,12 @@ function About() {
                   </p>
                 </div>
               </div>
+
               <div data-aos="fade-down">
                 <div className="about_card">
-                  <a style={{ color: "#29335c", fontSize: "20px" }}>
+                  <span style={{ color: "#29335c", fontSize: "20px" }}>
                     <BiSupport />
-                  </a>
+                  </span>
 
                   <h5>Support</h5>
                   <p>

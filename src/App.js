@@ -4,11 +4,12 @@ import Home from "./components/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Services from "./components/service/Services";
-import Skills from "./components/Skills";
+
 import Navbar from "./components/Navbar";
 import Qualifaction from "./components/qualification/Qualifaction";
 import Testimonial from "./components/testimonial/Testimonial";
 import Footer from "./components/footer/Footer";
+import Skills from "./components/skill/Skills";
 
 function App() {
   return (

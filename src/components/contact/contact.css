@@ -10,6 +10,10 @@
 .font-icon{
     font-size: 25px;
 }
+.anchar-tag{
+    text-decoration: none;
+    color: black;
+}
 
 .input-container .inp{
     outline: none;

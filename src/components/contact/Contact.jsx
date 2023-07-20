@@ -1,8 +1,9 @@
 import React from "react";
 import { BiMailSend } from "react-icons/bi";
-import { Button, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import { PiArrowRightBold } from "react-icons/pi";
 import "./contact.css";
+import "../style.css";
 import { BsWhatsapp } from "react-icons/bs";
 
 export default function Contact() {
@@ -25,33 +26,46 @@ export default function Contact() {
       <div className="row">
         <div className="col-md-4 offset-md-2 text-center">
           <h5 className="offset-md-2">Talk to me</h5>
-          <div className="contact-card offset-md-2 py-2" data-aos="flip-down">
-            <a
-              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnNVZrbllbNtHhGfzwcKGxPXtSnxhkSdggFGxjKrFKFQVXfpCHbJCMNTqQJLnkWtxwVNWQ"
-              className="font-icon"
-            >
-              <BiMailSend />
-            </a>
-            <h5>Email</h5>
-            <p className="m-0">pawankumar7310@gmail.com</p>
-            <span className="arrow" role="button">
-              view more <PiArrowRightBold />
-            </span>
-          </div>
-
-          <div
-            className="contact-card offset-md-2 py-2 my-2"
-            data-aos="flip-up"
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnNVZrbllbNtHhGfzwcKGxPXtSnxhkSdggFGxjKrFKFQVXfpCHbJCMNTqQJLnkWtxwVNWQ"
+            className="anchar-tag"
+            target="_blank"
+            rel="noreferrer"
           >
-            <a href="https://wa.link/q06ftl" className="font-icon">
-              <BsWhatsapp />
-            </a>
-            <h5>Whatsapp</h5>
-            <p className="m-0">+918285045537</p>
-            <span className="arrow" role="button">
-              view more <PiArrowRightBold />
-            </span>
-          </div>
+            <div className="contact-card offset-md-2 py-2" data-aos="flip-down">
+              <span style={{ color: "#29335c", fontSize: "20px" }}>
+                <BiMailSend />
+              </span>
+
+              <h5>Email</h5>
+              <p className="m-0">pawankumar7310@gmail.com</p>
+              <span className="arrow" role="button">
+                view more <PiArrowRightBold />
+              </span>
+            </div>
+          </a>
+
+          <a
+            className="anchar-tag"
+            href="https://wa.link/q06ftl"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="contact-card offset-md-2 py-2 my-2"
+              data-aos="flip-up"
+            >
+              <span style={{ color: "#29335c", fontSize: "20px" }}>
+                <BsWhatsapp />
+              </span>
+
+              <h5>Whatsapp</h5>
+              <p className="m-0">+918285045537</p>
+              <span className="arrow" role="button">
+                view more <PiArrowRightBold />
+              </span>
+            </div>
+          </a>
         </div>
         <div className="col-md-4 offset-md-2 m-auto input-container">
           <Form
@@ -68,7 +82,7 @@ export default function Contact() {
                 type="text"
                 name="name"
                 id="full-name"
-                placeholder="First and Last"
+                placeholder="Name"
                 required=""
               />
             </Form.Group>
@@ -96,9 +110,9 @@ export default function Contact() {
             </Form.Group>
 
             <div className="d-flex justify-content-center mt-2">
-              <Button className="buttons" type="submit" value="Submit">
+              <button className="buttons" type="submit" value="Submit">
                 Submit
-              </Button>
+              </button>
             </div>
           </Form>
         </div>
