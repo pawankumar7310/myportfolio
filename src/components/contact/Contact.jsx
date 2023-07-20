@@ -1,11 +1,18 @@
 import React from "react";
 import { BiMailSend } from "react-icons/bi";
-import { Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { PiArrowRightBold } from "react-icons/pi";
 import "./contact.css";
 import { BsWhatsapp } from "react-icons/bs";
 
 export default function Contact() {
+  window.onbeforeunload = () => {
+    setTimeout(() => {
+      for (const form of document.getElementsByTagName("form")) {
+        form.reset();
+      }
+    }, 700);
+  };
   return (
     <div className="my-5">
       <div
@@ -89,9 +96,9 @@ export default function Contact() {
             </Form.Group>
 
             <div className="d-flex justify-content-center mt-2">
-              <button className="buttons" type="submit" value="Submit">
+              <Button className="buttons" type="submit" value="Submit">
                 Submit
-              </button>
+              </Button>
             </div>
           </Form>
         </div>
