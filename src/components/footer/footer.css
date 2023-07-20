@@ -1,0 +1,12 @@
+.footer{
+    background:#29335c;
+    color: white;
+}
+ul{
+    list-style: none;
+  
+}
+ul li{
+    margin: 5px;
+    cursor: pointer;
+}

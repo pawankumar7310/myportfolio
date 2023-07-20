@@ -1,0 +1,13 @@
+
+.testimonial-card{
+  border-radius: 12px;
+  padding: 10px;
+  background: #29335c;
+  color: white;
+}
+
+.testimonial img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+.service_card{
+    border: 1px solid black;
+    padding: 10px;
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+ 
+}
+.service_card .arrow{
+cursor: pointer;
+}

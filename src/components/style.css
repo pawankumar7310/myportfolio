@@ -1,0 +1,53 @@
+
+.buttons{
+  border: none;
+  display: inline-block;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 12px;
+  color: white;
+  background-color:#29335c;
+  cursor: pointer;
+}
+.vph{
+    height: 100vh;
+}
+
+.img-container{
+   padding: 10px;
+}
+.home_profile{
+   
+     margin: auto;
+    background: url(../../public/assets/profile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255/30%);
+    width: 300px;
+    height: 300px;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+  
+}
+
+.social-icon{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+}
+
+@keyframes profile_animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+
