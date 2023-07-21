@@ -9,6 +9,7 @@
     gap: .5rem;
  
 }
-.service_card .arrow{
+.service_card {
 cursor: pointer;
 }
+

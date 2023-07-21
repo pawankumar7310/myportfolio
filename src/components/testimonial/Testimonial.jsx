@@ -24,7 +24,7 @@ function Testimonial() {
               <div className="testimonial-card">
                 <div className="d-flex testimonial">
                   <img src={img8} alt="img" />
-                  <div className="ps-2">
+                  <div className="ps-3">
                     <h4>jhonD</h4>
                     <p>web Developer</p>
                   </div>
@@ -46,7 +46,7 @@ function Testimonial() {
               <div className="testimonial-card">
                 <div className="d-flex testimonial">
                   <img src={img2} alt="img" />
-                  <div className="ps-2">
+                  <div className="ps-3">
                     <h4>jhonD</h4>
                     <p>web Developer</p>
                   </div>
@@ -68,7 +68,7 @@ function Testimonial() {
               <div className="testimonial-card">
                 <div className="d-flex testimonial">
                   <img src={img7} alt="img" />
-                  <div className="ps-2">
+                  <div className="ps-3">
                     <h4>jhonD</h4>
                     <p>web Developer</p>
                   </div>

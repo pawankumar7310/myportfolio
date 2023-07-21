@@ -12,7 +12,7 @@ function Home() {
     <div className="row mt-3 " id="home">
       <div className="col-md-6 pt-5">
         <div className="row ">
-          <div className=" col-2  social-icon  pt-2  text-center">
+          <div className=" col-2  social-icon text-center">
             <a
               href="https://www.instagram.com/pawan_ncr/"
               target="_blank"

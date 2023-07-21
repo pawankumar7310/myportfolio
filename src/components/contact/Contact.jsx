@@ -21,7 +21,7 @@ export default function Contact() {
         id="contact"
       >
         <h2>Contact</h2>
-        <p>What i offer</p>
+        <p>Connect with me</p>
       </div>
       <div className="row">
         <div className="col-md-4 offset-md-2 text-center">
@@ -93,7 +93,7 @@ export default function Contact() {
                 type="email"
                 name="Client email"
                 id="email-address"
-                placeholder="email@domain.tld"
+                placeholder="email"
                 required=""
               />
             </Form.Group>

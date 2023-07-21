@@ -6,9 +6,11 @@ import "./about.css";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import pawan from "./pawan.pdf";
 
 function About() {
   const [counterOn, setCounterOn] = useState(false);
+
   return (
     <div id="about">
       <div className="d-flex justify-content-center align-items-center flex-column mt-5">
@@ -40,38 +42,34 @@ function About() {
                 </p>
               </div>
 
-              <div data-aos="fade-up">
-                <div className="about_card my-2">
-                  <span style={{ color: "#29335c", fontSize: "20px" }}>
-                    <MdOutlineWorkHistory />
-                  </span>
-                  <h5>Completed</h5>
-                  <p>
-                    {counterOn && (
-                      <CountUp start={0} end={10} duration={5} delay={0} />
-                    )}
-                    + project
-                  </p>
-                </div>
+              <div className="about_card my-2" data-aos="fade-up">
+                <span style={{ color: "#29335c", fontSize: "20px" }}>
+                  <MdOutlineWorkHistory />
+                </span>
+                <h5>Completed</h5>
+                <p>
+                  {counterOn && (
+                    <CountUp start={0} end={10} duration={5} delay={0} />
+                  )}
+                  + project
+                </p>
               </div>
 
-              <div data-aos="fade-down">
-                <div className="about_card">
-                  <span style={{ color: "#29335c", fontSize: "20px" }}>
-                    <BiSupport />
-                  </span>
+              <div className="about_card" data-aos="fade-down">
+                <span style={{ color: "#29335c", fontSize: "20px" }}>
+                  <BiSupport />
+                </span>
 
-                  <h5>Support</h5>
-                  <p>
-                    Online{" "}
-                    {counterOn && (
-                      <>
-                        <CountUp start={0} end={24} duration={5} delay={0} />/
-                        <CountUp start={0} end={7} duration={5} delay={0} />
-                      </>
-                    )}
-                  </p>
-                </div>
+                <h5>Support</h5>
+                <p>
+                  Online{" "}
+                  {counterOn && (
+                    <>
+                      <CountUp start={0} end={24} duration={5} delay={0} />/
+                      <CountUp start={0} end={7} duration={5} delay={0} />
+                    </>
+                  )}
+                </p>
               </div>
             </div>
             <p>
@@ -80,7 +78,7 @@ function About() {
               repudiandae aperiam iste. Totam, iste! Minus accusamus maxime
               quasi fugiat deleniti.
             </p>
-            <Link href="">
+            <Link to={pawan} target="_blank">
               <button className="buttons ">Download CV</button>
             </Link>
           </ScrollTrigger>

@@ -23,7 +23,8 @@ function Services(props) {
         <h2>Services</h2>
         <p>What i offer</p>
       </div>
-      <div className="d-flex flex-wrap justify-content-center gap-5">
+      <div className="d-flex flex-wrap justify-content-center gap-5 ">
+        {/* card-1 */}
         <div
           className="service_card"
           data-aos="fade-down"
@@ -35,7 +36,7 @@ function Services(props) {
             view more <PiArrowRightBold />
           </span>
         </div>
-
+        {/* card-2 */}
         <div className="service_card" data-aos="flip-left">
           <FaFigma />
           <h6 className="m-0 py-3">UI/UX Developer</h6>
@@ -43,7 +44,7 @@ function Services(props) {
             view more <PiArrowRightBold />
           </span>
         </div>
-
+        {/* card-3 */}
         <div
           className="service_card"
           data-aos="fade-up"
