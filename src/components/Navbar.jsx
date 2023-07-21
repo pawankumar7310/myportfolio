@@ -16,7 +16,9 @@ function Navbar() {
       <h3>Pawan</h3>
       <div className="nav-container">
         <nav ref={navRef}>
-          <HashLink to="/">Home</HashLink>
+          <HashLink smooth to="/">
+            Home
+          </HashLink>
           <HashLink smooth to="#about">
             About
           </HashLink>

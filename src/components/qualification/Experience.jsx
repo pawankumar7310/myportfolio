@@ -37,7 +37,7 @@ export default function Experience() {
           <div className="text-box">
             <h3 className="m-0">Adding Skill</h3>
             <small className="m-0">MERN</small>
-            <p className="m-0">Learning full stack</p>
+            <p className="m-0">Learning full stack MERN</p>
             <span className="left-container-arrow"></span>
           </div>
         </div>

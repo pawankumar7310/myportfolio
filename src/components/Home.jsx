@@ -9,14 +9,14 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="row mt-3 " id="home">
+    <div className="row pt-3 " id="home">
       <div className="col-md-6 pt-5">
         <div className="row ">
           <div className=" col-2  social-icon text-center">
             <a
               href="https://www.instagram.com/pawan_ncr/"
               target="_blank"
-              style={{ color: "#29335c" }}
+              style={{ color: "#607D8B" }}
               rel="noopener noreferrer"
             >
               <BsInstagram />
@@ -25,7 +25,7 @@ function Home() {
             <a
               href="https://www.linkedin.com/in/pawan-kumar-7439561a0/"
               target="_blank"
-              style={{ color: "#29335c" }}
+              style={{ color: "#607D8B" }}
               rel="noopener noreferrer"
             >
               <BsLinkedin />
@@ -33,7 +33,7 @@ function Home() {
             <a
               href="https://github.com/pawankumar7310"
               target="_blank"
-              style={{ color: "#29335c" }}
+              style={{ color: "#607D8B" }}
               rel="noopener noreferrer"
             >
               <BsGithub />

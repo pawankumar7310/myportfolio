@@ -4,6 +4,7 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Education from "./Education";
 import Experience from "./Experience";
+import "./qualification.css";
 function Qualifaction() {
   const [key, setKey] = useState("home");
   return (
@@ -22,7 +23,7 @@ function Qualifaction() {
           className="mb-3 custom-tabs"
           style={{ border: "none", outline: "none" }}
         >
-          <Tab eventKey="home" title=" Educations">
+          <Tab eventKey="home" title=" Educations" id="tab-color">
             <Education />
           </Tab>
           <Tab eventKey="profile" title="Experience">

@@ -84,7 +84,8 @@ left: -231px;
     position: absolute;
     width: 6px;
     height: 100%;
-    background: red;
+    background:#607D8B;
+    /* background: red; */
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -119,7 +120,7 @@ left: -231px;
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid red;
+    border-left: 15px solid #607D8B;
     right: -15px;
 }
 
@@ -131,7 +132,7 @@ left: -231px;
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid red;
+    border-right: 15px solid #607D8B;
     left: -15px;
 }
 
@@ -167,7 +168,7 @@ left: -231px;
         left: 10px;
     }
     .left-container-arrow, .right-container-arrow{
-        border-right: 15px solid red;
+        border-right: 15px solid #607D8B;
         border-left: 0;
         left: -15px;
     }

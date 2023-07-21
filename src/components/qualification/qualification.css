@@ -4,6 +4,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.nav-tabs .nav-link.active {
+    background-color: #29335c !important;
+    color: #ffffff !important; 
+  }
+
+  .nav-tabs .nav-link {
+    color: #29335c; 
+    border: .5px solid #29335c;
+  }
+  .nav-tabs .nav-link:hover {
+    background-color: #29335c;
+    color: #ffffff;
+    border: .5px solid #29335c;
+  }
+
+
 .main{
     width: 100%;
     height: auto;

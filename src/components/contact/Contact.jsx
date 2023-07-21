@@ -15,7 +15,7 @@ export default function Contact() {
     }, 700);
   };
   return (
-    <div className="my-5">
+    <div className="py-3">
       <div
         className="d-flex justify-content-center align-items-center flex-column mt-5"
         id="contact"
@@ -32,8 +32,12 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="contact-card offset-md-2 py-2" data-aos="flip-down">
-              <span style={{ color: "#29335c", fontSize: "20px" }}>
+            <div
+              className="contact-card offset-md-2 py-2"
+              data-aos="flip-down"
+              style={{ background: "#607D8B", border: "none", color: "white" }}
+            >
+              <span style={{ fontSize: "20px" }}>
                 <BiMailSend />
               </span>
 
@@ -54,8 +58,9 @@ export default function Contact() {
             <div
               className="contact-card offset-md-2 py-2 my-2"
               data-aos="flip-up"
+              style={{ background: "#607D8B", border: "none", color: "white" }}
             >
-              <span style={{ color: "#29335c", fontSize: "20px" }}>
+              <span style={{ fontSize: "20px" }}>
                 <BsWhatsapp />
               </span>
 

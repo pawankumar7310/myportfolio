@@ -25,15 +25,15 @@ function Testimonial() {
                 <div className="d-flex testimonial">
                   <img src={img8} alt="img" />
                   <div className="ps-3">
-                    <h4>jhonD</h4>
-                    <p>web Developer</p>
+                    <h4>Albert</h4>
+                    <p>Co-Founder</p>
                   </div>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  rerum quod, id, illo aut praesentium earum unde ea ab minima
-                  libero. Iure quo ex laborum, quis sunt incidunt modi
-                  accusantium.
+                  "This website exceeded my expectations! The interface is
+                  incredibly intuitive, making navigation a breeze. I'm
+                  thoroughly impressed and will definitely be returning for
+                  more!"
                 </p>
               </div>
             </div>
@@ -47,15 +47,14 @@ function Testimonial() {
                 <div className="d-flex testimonial">
                   <img src={img2} alt="img" />
                   <div className="ps-3">
-                    <h4>jhonD</h4>
-                    <p>web Developer</p>
+                    <h4>yeldi</h4>
+                    <p>IT Manager</p>
                   </div>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  rerum quod, id, illo aut praesentium earum unde ea ab minima
-                  libero. Iure quo ex laborum, quis sunt incidunt modi
-                  accusantium.
+                  "Bravo to the website team for creating such a seamless and
+                  delightful online experience. It's a true gem among websites,
+                  and I couldn't be happier with my visit!"
                 </p>
               </div>
             </div>
@@ -70,14 +69,13 @@ function Testimonial() {
                   <img src={img7} alt="img" />
                   <div className="ps-3">
                     <h4>jhonD</h4>
-                    <p>web Developer</p>
+                    <p>Founder</p>
                   </div>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  rerum quod, id, illo aut praesentium earum unde ea ab minima
-                  libero. Iure quo ex laborum, quis sunt incidunt modi
-                  accusantium.
+                  "I can't say enough good things about this website! From the
+                  sleek design to the wealth of valuable content, it's a true
+                  pleasure to explore. The user experience is top-notch
                 </p>
               </div>
             </div>

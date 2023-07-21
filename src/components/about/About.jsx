@@ -3,7 +3,6 @@ import { MdOutlineWorkHistory } from "react-icons/md";
 import { MdOutlineWorkspacePremium } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
 import "./about.css";
-import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import pawan from "./pawan.pdf";
@@ -28,8 +27,16 @@ function About() {
             onExit={() => setCounterOn(false)}
           >
             <div className="d-flex justify-content-center align-items-center flex-wrap p-2">
-              <div className="about_card" data-aos="fade-down">
-                <span style={{ color: "#29335c", fontSize: "20px" }}>
+              <div
+                className="about_card"
+                data-aos="fade-down"
+                style={{
+                  background: "#607D8B",
+                  border: "none",
+                  color: "white",
+                }}
+              >
+                <span style={{ fontSize: "20px" }}>
                   <MdOutlineWorkspacePremium />
                 </span>
                 <h5>Experience</h5>
@@ -42,8 +49,16 @@ function About() {
                 </p>
               </div>
 
-              <div className="about_card my-2" data-aos="fade-up">
-                <span style={{ color: "#29335c", fontSize: "20px" }}>
+              <div
+                className="about_card my-2"
+                data-aos="fade-up"
+                style={{
+                  background: "#607D8B",
+                  border: "none",
+                  color: "white",
+                }}
+              >
+                <span style={{ fontSize: "20px" }}>
                   <MdOutlineWorkHistory />
                 </span>
                 <h5>Completed</h5>
@@ -55,8 +70,16 @@ function About() {
                 </p>
               </div>
 
-              <div className="about_card" data-aos="fade-down">
-                <span style={{ color: "#29335c", fontSize: "20px" }}>
+              <div
+                className="about_card"
+                data-aos="fade-down"
+                style={{
+                  background: "#607D8B",
+                  border: "none",
+                  color: "white",
+                }}
+              >
+                <span style={{ fontSize: "20px" }}>
                   <BiSupport />
                 </span>
 
@@ -73,10 +96,12 @@ function About() {
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              recusandae aut harum est nisi fugiat error rem, illo doloribus,
-              repudiandae aperiam iste. Totam, iste! Minus accusamus maxime
-              quasi fugiat deleniti.
+              Experienced frontend developer with a passion for crafting
+              visually captivating and user-friendly web applications.
+              Proficient in HTML, CSS, JavaScript and React. Committed to
+              delivering seamless user experiences and optimizing performance. A
+              collaborative team player dedicated to staying updated with the
+              latest trends and technologies.
             </p>
             <a href={pawan} target="_blank">
               <button className="buttons ">Download CV</button>

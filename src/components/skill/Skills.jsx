@@ -21,6 +21,7 @@ function Skills() {
           <div
             className="col-md-8 offset-md-3 p-3 m-auto text-center py-5 mb-3 skill-card"
             data-aos="zoom-in"
+            style={{ background: "#607D8B", border: "none", color: "white" }}
           >
             <h3>FrontEnd Developer</h3>
             <div className=" row d-flex justify-content-between">
@@ -90,6 +91,7 @@ function Skills() {
           <div
             className="col-md-8 offset-md-3 p-3 m-auto text-center py-5 skill-card"
             data-aos="zoom-in"
+            style={{ background: "#607D8B", border: "none", color: "white" }}
           >
             <h3>Backend Developer</h3>
             <div className=" row d-flex justify-content-between">

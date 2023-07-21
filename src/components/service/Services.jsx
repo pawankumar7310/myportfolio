@@ -29,18 +29,29 @@ function Services(props) {
           className="service_card"
           data-aos="fade-down"
           data-aos-anchor-placement="top-bottom"
+          onClick={handleShow}
+          style={{ background: "#607D8B", border: "none", color: "white" }}
         >
-          <CgWebsite />
+          <span className="font-icon">
+            <CgWebsite />
+          </span>
           <h6 className="m-0 py-3 pe-2">Web Developer</h6>
-          <span className="arrow" onClick={handleShow}>
+          <span className="arrow">
             view more <PiArrowRightBold />
           </span>
         </div>
         {/* card-2 */}
-        <div className="service_card" data-aos="flip-left">
-          <FaFigma />
+        <div
+          className="service_card"
+          data-aos="flip-left"
+          onClick={handleShow}
+          style={{ background: "#607D8B", border: "none", color: "white" }}
+        >
+          <span className="font-icon">
+            <FaFigma />
+          </span>
           <h6 className="m-0 py-3">UI/UX Developer</h6>
-          <span className="arrow" onClick={handleShow}>
+          <span className="arrow">
             view more <PiArrowRightBold />
           </span>
         </div>
@@ -49,8 +60,12 @@ function Services(props) {
           className="service_card"
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
+          onClick={handleShow}
+          style={{ background: "#607D8B", border: "none", color: "white" }}
         >
-          <SiReact />
+          <span className="font-icon">
+            <SiReact />
+          </span>
           <h6 className="m-0 py-3">React Developer</h6>
           <span className="arrow" onClick={handleShow}>
             view more <PiArrowRightBold />

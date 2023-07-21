@@ -1,0 +1,38 @@
+.worldmap{
+    background-image: url(../../../public/assets/worldmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.mob{
+    background-image: url(../../../public/assets/mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.roof{
+    background-image: url(../../../public/assets/roof.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.youtube{
+    background-image: url(../../../public/assets/youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
