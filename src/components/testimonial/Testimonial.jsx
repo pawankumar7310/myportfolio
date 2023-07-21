@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import img7 from "../../testimonials/img7.png";
-import img8 from "../../testimonials/img8.jpg";
-import img2 from "../../testimonials/img2.jpg";
+import img7 from ".././testimonial/testimonials/img7.png";
+import img8 from ".././testimonial/testimonials/img8.jpg";
+import img2 from ".././testimonial/testimonials/img2.jpg";
 
 import "./testimonial.css";
 function Testimonial() {
