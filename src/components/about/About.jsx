@@ -78,9 +78,9 @@ function About() {
               repudiandae aperiam iste. Totam, iste! Minus accusamus maxime
               quasi fugiat deleniti.
             </p>
-            <Link to={pawan} target="_blank">
+            <a href={pawan} target="_blank">
               <button className="buttons ">Download CV</button>
-            </Link>
+            </a>
           </ScrollTrigger>
         </div>
       </div>
