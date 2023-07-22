@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "image": "/images/img8.jpg",
+    "name": "Albert",
+    "position": "Co-Founder",
+    "comment": "I can't say enough good things about this website from the  sleek design to the wealth of valuable content, it's a true pleasure to explore. The user experience is top-notch"
+  },
+  {
+    "id": "2",
+    "image": "/images/img2.jpg",
+    "name": "yeldi",
+    "position": "IT Manager",
+    "comment": "Bravo to the website team for creating such a seamless and delightful online experience. It's a true gem among websites,and I couldn't be happier with my visit!"
+  },
+  {
+    "id": "3",
+    "image": "/images/img3.jpg",
+    "name": "Mony",
+    "position": "Founder",
+    "comment": "This website exceeded my expectations! The interface is incredibly intuitive, making navigation a breeze. I'm thoroughly impressed and will definitely be returning for more!"
+  }
+]
