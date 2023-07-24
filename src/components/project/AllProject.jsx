@@ -1,9 +1,8 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
 import Card from "react-bootstrap/Card";
 import { PiArrowRightBold } from "react-icons/pi";
 import "./project.css";
-// import { worldmap } from "../../../public/assets/worldmap.png";
 
 export default function AllProject() {
   return (

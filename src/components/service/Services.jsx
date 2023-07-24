@@ -71,48 +71,47 @@ function Services(props) {
             view more <PiArrowRightBold />
           </span>
         </div>
+        <>
+          <Modal
+            {...props}
+            size="md"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            show={show}
+            onHide={handleClose}
+          >
+            <Modal.Header closeButton>
+              <Modal.Title className="ps-5 m-auto">
+                <h3>FrontEnd Developer</h3>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <div className="d-flex align-items-center py-2">
+                <VscVerified />
+                <p className="ps-2 m-0">I develop user flow Chart</p>
+              </div>
+
+              <div className="d-flex align-items-center py-2">
+                <VscVerified />
+                <p className="ps-2 m-0">I develop ui/ux</p>
+              </div>
+
+              <div className="d-flex align-items-center py-2">
+                <VscVerified />
+                <p className="ps-2 m-0">web page Development</p>
+              </div>
+              <div className="d-flex align-items-center py-2">
+                <VscVerified />
+                <p className="ps-2 m-0">Suggest for best market Demand</p>
+              </div>
+              <div className="d-flex align-items-center py-2">
+                <VscVerified />
+                <p className="ps-2 m-0">Responsive design for all device</p>
+              </div>
+            </Modal.Body>
+          </Modal>
+        </>
       </div>
-
-      <>
-        <Modal
-          {...props}
-          size="md"
-          aria-labelledby="contained-modal-title-vcenter"
-          centered
-          show={show}
-          onHide={handleClose}
-        >
-          <Modal.Header closeButton>
-            <Modal.Title className="ps-5 m-auto">
-              <h3>FrontEnd Developer</h3>
-            </Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <div className="d-flex align-items-center py-2">
-              <VscVerified />
-              <p className="ps-2 m-0">I develop user flow Chart</p>
-            </div>
-
-            <div className="d-flex align-items-center py-2">
-              <VscVerified />
-              <p className="ps-2 m-0">I develop ui/ux</p>
-            </div>
-
-            <div className="d-flex align-items-center py-2">
-              <VscVerified />
-              <p className="ps-2 m-0">web page Development</p>
-            </div>
-            <div className="d-flex align-items-center py-2">
-              <VscVerified />
-              <p className="ps-2 m-0">Suggest for best market Demand</p>
-            </div>
-            <div className="d-flex align-items-center py-2">
-              <VscVerified />
-              <p className="ps-2 m-0">Responsive design for all device</p>
-            </div>
-          </Modal.Body>
-        </Modal>
-      </>
     </>
   );
 }

@@ -5,7 +5,7 @@ import { BiSupport } from "react-icons/bi";
 import "./about.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import pawan from "./pawan.pdf";
+import pawan from "./pawan-resume.pdf";
 
 function About() {
   const [counterOn, setCounterOn] = useState(false);
