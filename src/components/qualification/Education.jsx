@@ -37,8 +37,8 @@ export default function Education() {
           </span>
           <div className="text-box">
             <h3 className="m-0">Graducation</h3>
-            <small className="m-0"> DU</small>
-            <p className="m-0">Maharaja Agrasen College</p>
+            <small className="m-0">Bsc Computer</small>
+            <p className="m-0">Maharaja Agrasen College DU</p>
             <span className="left-container-arrow"></span>
           </div>
         </div>
